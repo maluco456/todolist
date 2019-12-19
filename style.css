@@ -1,0 +1,110 @@
+.card {
+  width: 60vw;
+  margin: 5vh auto;
+}
+label {
+  width: 100%;
+}
+label .form-control {
+  width: 80%;
+  float: left;
+  margin-right: 2%;
+  margin-left: 5%;
+  margin-bottom: 25px;
+}
+.btn {
+  padding: 0.4rem 0.75rem 0em !important;
+}
+.controls {
+  text-align: right;
+  margin: 15px 0;
+  padding: 0 20px;
+}
+.listTitle {
+  margin: 25px 0 25px 5%;
+}
+#myUL {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 33%;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff !important;
+  text-shadow: 0 1px 0 #666 !important;
+  opacity: 0.9 !important;
+  height: 51px;
+  width: 45px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 15px 39px 15px 15px;
+  z-index: 99;
+  background: #de1f49;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
