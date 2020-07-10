@@ -66,10 +66,6 @@ function createListItem(id, value) {
   myUl.appendChild(li);
 }
 
-function init() {
+window.onload = function() {
   loadFromLocalStorage();
-}
-
-if (document.readyState === 'complete') {
-  init();
-}
+};
