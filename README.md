@@ -1,5 +1,5 @@
 # todolist
-To do list with HTML5, CSS, JavaScript native and localStorage
+To do list with HTML5, CSS, Vanilla JavaScript and localStorage
 
 # about
 You can download and open the index HTML, to check how it works, you will be able to add or remove items from the list, 
